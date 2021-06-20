@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+.app_input {
+    position: absolute;
+    top: 70px;
+    left: 3%;
+    right: 3%;
+}
+
+input.location-search-input {
+    width: -webkit-fill-available;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1.9px solid grey;
+    box-shadow: rgb(0 0 0 / 30%) 0px 1px 4px -1px;
+}
+
+.suggestion-item {
+    padding: 10px;
+    background-color: #f2f2f2;
+    color: black;
+    border-bottom: 3px solid #f2f3f4;
+}
+
+.suggestion-active {
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    border-bottom: 3px solid #f2f3f4;
+}
+
+.autocomplete-dropdown-container {
+    box-shadow: rgb(0 0 0 / 30%) 0px 1px 4px -1px;
+}
+
+.app_address {
+    position: absolute;
+    bottom: 60px;
+    background: white;
+    padding: 8px;
+    color: #8f8c8c;
+    font-weight: bold;
+    border-radius: 3px;
+    left: 10%;
+    right: 10%;
+    box-shadow: rgb(0 0 0 / 30%) 0px 1px 4px -1px;
+}
+
+.app_copy {
+    font-size: 10px;
+    text-align: right;
+    font-style: oblique;
+    text-decoration: underline;
+    margin-right: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}

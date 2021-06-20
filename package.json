@@ -1,0 +1,45 @@
+{
+  "name": "search-locations",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode production --open",
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Nya Shaw-Kirchel",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^5.1.2",
+    "css-loader": "^3.5.3",
+    "file-loader": "^4.3.0",
+    "html-webpack-plugin": "^4.3.0",
+    "jest": "^27.0.4",
+    "less": "^3.11.1",
+    "less-loader": "^5.0.0",
+    "style-loader": "^1.2.1",
+    "url-loader": "^2.3.0",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "4.2.1"
+  },
+  "dependencies": {
+    "@react-google-maps/api": "^2.2.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-geocode": "^0.2.3",
+    "react-places-autocomplete": "^7.3.0",
+    "react-redux": "^7.2.4",
+    "redux": "^4.1.0"
+  }
+}
